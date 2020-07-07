@@ -1,0 +1,8 @@
+.container {
+    display: grid;
+}
+
+.col-3 {
+    grid-column: 3 span;
+}
+/*# sourceMappingURL=main.75ac4975.css.map */

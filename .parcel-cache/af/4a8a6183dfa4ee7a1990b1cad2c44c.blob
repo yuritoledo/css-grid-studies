@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    max-width: 960px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.col-1 {
+    grid-column: span 1;
+    background: red;
+}
+.col-2 {
+    grid-column: span 2;
+    background: #AAA;
+}
+.col-3 {
+    grid-column: span 3;
+    background: #BBB;
+}
+.col-4 {
+    grid-column: 4 span;
+    background: #CCC;
+}
+/*# sourceMappingURL=main.75ac4975.css.map */
